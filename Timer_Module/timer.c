@@ -3,6 +3,8 @@
 #include <linux/hrtimer.h>
 #include <linux/jiffies.h>
 
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("student");
 MODULE_DESCRIPTION("Current Timer - Linux Kernel Module");
 
 static struct hrtimer mytimer;
