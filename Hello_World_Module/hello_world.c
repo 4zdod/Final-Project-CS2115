@@ -1,6 +1,8 @@
 #include <linux/init.h>
 #include <linux/module.h>
 
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("student");
 MODULE_DESCRIPTION("Hello World - Linux Kernel Module");
 
 static int __init hello_init(void)
