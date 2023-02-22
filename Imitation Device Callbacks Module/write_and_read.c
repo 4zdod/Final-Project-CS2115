@@ -4,8 +4,6 @@
 #include <linux/cdev.h>
 #include <linux/uaccess.h>
 
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Noyan");
 MODULE_DESCRIPTION("Imitation Device Callbacks - Linux Kernel Module");
 
 static char buffer[255];
